@@ -1,3 +1,7 @@
 .register {
     text-align: center;
 }
+
+.register h1, p, label, input {
+    color: #FFF;
+}
