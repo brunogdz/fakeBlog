@@ -62,7 +62,12 @@ export const useAuthentication = () => {
       setLoading(false);
       setError(systemErrorMessage);
     }
-    
+  };
+
+  // logout - sign out
+  const logout = () => {
+    checkIfIsCancelled();
+    signOut(auth);
   };
 
   useEffect(() => {
@@ -74,5 +79,6 @@ export const useAuthentication = () => {
     createUser,
     error,
     loading,
+    logout,
   };
 };
