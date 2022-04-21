@@ -1,0 +1,7 @@
+.login {
+    text-align: center;
+}
+
+.login h1, p, label, input   {
+    color: #AAA;
+}
