@@ -1,0 +1,22 @@
+.create_post {
+    text-align: center;
+}
+
+.create_post h2 {
+    font-size: 2.2em;
+    color: #6e9748;
+}
+
+.create_post p {
+    color: #AAA;
+    margin-bottom: 2em;
+}
+
+.create_post span {
+    color: #86e7d4;
+}
+
+.create_post textarea, input {
+    color: beige;
+    font-size: 18px;
+}
