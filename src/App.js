@@ -20,6 +20,7 @@ import CreatePost from "./pages/CreatePost/CreatePost";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Search from "./pages/Search/Search";
 import Post from "./pages/Post/Post";
+import EditPost from "./pages/EditPost/EditPost";
 
 function App() {
   const [user, setUser] = useState(undefined);
@@ -49,6 +50,7 @@ function App() {
               <Route path="/posts/:id" element={<Post />} />
               <Route path="/login" element={!user ? <Login /> : <Navigate to="/" />} />
               <Route path="/register" element={!user ? <Register /> : <Navigate to="/" />} />
+              <Route path="/posts/edit/:id" element={user ? <EditPost /> : <Navigate to="/login" />} />
               <Route path="/posts/create" element={user ? <CreatePost /> : <Navigate to="/login" />} />
               <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/login" />} />
               <Route path="/dashboard" element={user ? <Dashboard /> : <Navigate to="/login" />} />
