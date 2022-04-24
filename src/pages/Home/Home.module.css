@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.home h1{
+    color: bisque;
+}
+
 .search_form {
     max-width: 100%;
     width: 60%;

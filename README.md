@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Mini Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+    <img src="src/images/blog_home.png" alt="Home of the app showing all posts the users posted">
+    <img src="src/images/blog_login.png" alt="login page">
+    <img src="src/images/blog_Register.png" alt="register page">
+    <img src="src/images/blog_home_logged.png" alt="Home page when you are logged">
+    <img src="src/images/blog_dashboard.png" alt="Dashboard to manage your posts">
+    <img src="src/images/blog_createPost.png" alt="Create a post page">
+</div>
 
-## Available Scripts
+## About the Project
 
-In the project directory, you can run:
+This is a mini blog that you can post and use an image URL to show whatever you want, being able to search for hashtags and still having a dashboard being able to change your publications and delete, and in the home, you can see all the publications of others users!
 
-### `npm start`
+### Things you can do:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Loggin with your email and password saved on Firebase
+* Search for posts that has the hashtags that you want to find
+* Change your posts, edit the image, the title, the hashtags and the text
+* Delete for everyone your posts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
+- [React](https://pt-br.reactjs.org/)
+- [Firebase](https://console.firebase.google.com/u/0/)
+- [Redux](https://redux.js.org/)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repo
+```sh
+git clone https://github.com/brunogomes98/fakeBlog.git
+```
 
-### `npm run build`
+### Initializing the project
+```bash
+# Enter the folder 
+$ cd miniblog
+# Install the dependencies:
+$ yarn or npm i
+# Run the aplication
+$ yarn start or npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Firebase Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You need to create a project on firebase console, so after you create you must to check the firebase folder 
+there you can see a config_fake.js there has the template taht you can follow
